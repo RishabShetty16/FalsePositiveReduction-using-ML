@@ -7,7 +7,7 @@ Traditional Intrusion Detection Systems often suffer from high false positive ra
 Methodology:The machine learning pipeline was designed to transform raw network traffic into actionable security insights.
 
 Dataset
-The model was trained using scenarios 50, 52, and 54 from the CTU-13 extended dataset. This dataset is well-regarded for its realistic mix of normal background traffic and a wide range of malware communication and attack patterns. The data was split into 70% for training and 30% for validation. The model was tested using sceanrio 49
+The model was trained using scenarios 50 and 54 from the CTU-13 extended dataset. This dataset is well-regarded for its realistic mix of normal background traffic and a wide range of malware communication and attack patterns. The data was split into 70% for training and 30% for validation. The model was tested using sceanrio 49
 
 Feature Extraction
 CICFlowMeter was used to convert raw packet captures (.pcap files) into a set of over 80 flow-based features suitable for machine learning. These features capture statistical properties of the traffic, such as flow duration, packet counts, and byte counts, which are crucial for identifying anomalous behavior.
